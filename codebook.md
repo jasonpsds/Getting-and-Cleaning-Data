@@ -41,21 +41,21 @@ The run_analysis() function **requires the reshape2 and plyr packages installed*
  -  X_test.txt 
  - y_test.txt 
 
-**DIR**Inertial Signals
-  -body_acc_x_test.txt  
-  -body_acc_y_ test.txt  
-  -body_acc_z_ test.txt 
- - body_gyro_x_ test.txt 
- - body_gyro_y_ test.txt 
+**DIR**Inertial Signals 
+   -body_acc_x_test.txt  
+   -body_acc_y_ test.txt  
+   -body_acc_z_ test.txt 
+  - body_gyro_x_ test.txt 
+  - body_gyro_y_ test.txt 
  - body_gyro_z_ test.txt 
  - total_acc_x_ test.txt 
  - total_acc_y_ test.txt 
  - total_acc_z_ test.txt 
 
-**DIR** train
-  -subject_train.txt  
-  -X_train.txt  
-  -y_train.txt  
+**DIR** train 
+   -subject_train.txt  
+   -X_train.txt  
+   -y_train.txt  
 
 **DIR** Inertial Signals
  - body_acc_x_train.txt  
