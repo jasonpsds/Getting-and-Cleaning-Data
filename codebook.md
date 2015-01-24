@@ -42,31 +42,32 @@ The run_analysis() function **requires the reshape2 and plyr packages installed*
  - y_test.txt 
 
 **DIR**Inertial Signals 
--body_acc_x_test.txt  
--body_acc_y_ test.txt  
--body_acc_z_ test.txt 
--body_gyro_x_ test.txt 
--body_gyro_y_ test.txt 
--body_gyro_z_ test.txt 
--total_acc_x_ test.txt 
--total_acc_y_ test.txt 
--total_acc_z_ test.txt 
+
+- body_acc_x_test.txt  
+- body_acc_y_ test.txt  
+- body_acc_z_ test.txt 
+- body_gyro_x_ test.txt 
+- body_gyro_y_ test.txt 
+- body_gyro_z_ test.txt 
+- total_acc_x_ test.txt 
+- total_acc_y_ test.txt 
+- total_acc_z_ test.txt 
 
 **DIR** train 
--subject_train.txt  
--X_train.txt  
--y_train.txt  
+- subject_train.txt  
+- X_train.txt  
+- y_train.txt  
 
 **DIR** Inertial Signals 
 - body_acc_x_train.txt  
--body_acc_y_train.txt  
--body_acc_z_train.txt  
--body_gyro_x_train.txt 
--body_gyro_y_train.txt 
--body_gyro_z_train.txt 
--total_acc_x_train.txt 
--total_acc_y_train.txt 
--total_acc_z_train.txt 
+- body_acc_y_train.txt  
+- body_acc_z_train.txt  
+- body_gyro_x_train.txt 
+- body_gyro_y_train.txt 
+- body_gyro_z_train.txt 
+- total_acc_x_train.txt 
+- total_acc_y_train.txt 
+- total_acc_z_train.txt 
   
 ##Files and Variables used in the analysis
 ----
@@ -87,31 +88,31 @@ Description: Activities undertaken by the subjects during the data collection.
 Description: observation dataset labels for recorded data from the device along with additional calculated statistical measures for some observations (mean and standard deviation abbreviated to std)
 
 -Index	     Label
--1        	tBodyAcc-mean()-X
--2	tBodyAcc-mean()-Y
--3	tBodyAcc-mean()-Z
--4	tBodyAcc-std()-X
--5	tBodyAcc-std()-Y
--6	tBodyAcc-std()-Z
--7	tBodyAcc-mad()-X
--8	tBodyAcc-mad()-Y
--9	tBodyAcc-mad()-Z
--10	tBodyAcc-max()-X
--11	tBodyAcc-max()-Y
--12	tBodyAcc-max()-Z
--13	tBodyAcc-min()-X
--14	tBodyAcc-min()-Y
--15	tBodyAcc-min()-Z
--16	tBodyAcc-sma()
--17	tBodyAcc-energy()-X
--18	tBodyAcc-energy()-Y
--19	tBodyAcc-energy()-Z
--20	tBodyAcc-iqr()-X
--21	tBodyAcc-iqr()-Y
--22	tBodyAcc-iqr()-Z
--23	tBodyAcc-entropy()-X
--24	tBodyAcc-entropy()-Y
--25	tBodyAcc-entropy()-Z
+- 1 tBodyAcc-mean()-X
+- 2	tBodyAcc-mean()-Y
+- 3	tBodyAcc-mean()-Z
+- 4	tBodyAcc-std()-X
+- 5	tBodyAcc-std()-Y
+- 6	tBodyAcc-std()-Z
+- 7	tBodyAcc-mad()-X
+- 8	tBodyAcc-mad()-Y
+- 9	tBodyAcc-mad()-Z
+- 10	tBodyAcc-max()-X
+- 11	tBodyAcc-max()-Y
+- 12	tBodyAcc-max()-Z
+- 13	tBodyAcc-min()-X
+- 14	tBodyAcc-min()-Y
+- 15	tBodyAcc-min()-Z
+- 16	tBodyAcc-sma()
+- 17	tBodyAcc-energy()-X
+- 18	tBodyAcc-energy()-Y
+- 19	tBodyAcc-energy()-Z
+- 20	tBodyAcc-iqr()-X
+- 21	tBodyAcc-iqr()-Y
+- 22	tBodyAcc-iqr()-Z
+- 23	tBodyAcc-entropy()-X
+- 24	tBodyAcc-entropy()-Y
+- 25	tBodyAcc-entropy()-Z
 -26	tBodyAcc-arCoeff()-X,1
 -27	tBodyAcc-arCoeff()-X,2
 -28	tBodyAcc-arCoeff()-X,3
