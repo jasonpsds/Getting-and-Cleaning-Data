@@ -35,11 +35,11 @@ activity_labels.txt
 features.txt
 features_info.txt
 README.txt
-**DIR**          test
+**DIR** test
 subject_test.txt
 X_test.txt
 y_test.txt
-**DIR**          Inertial Signals
+**DIR**Inertial Signals
 body_acc_x_test.txt
 body_acc_y_ test.txt
 body_acc_z_ test.txt
@@ -50,11 +50,12 @@ total_acc_x_ test.txt
 total_acc_y_ test.txt
 total_acc_z_ test.txt
 
-**DIR**          train
+**DIR** train
 subject_train.txt
 X_train.txt
 y_train.txt
-**DIR**          Inertial Signals
+
+**DIR** Inertial Signals
 body_acc_x_train.txt
 body_acc_y_train.txt
 body_acc_z_train.txt
@@ -64,24 +65,25 @@ body_gyro_z_train.txt
 total_acc_x_train.txt
 total_acc_y_train.txt
 total_acc_z_train.txt
-
 ##Files and Variables used in the analysis
 ----
+
 ###File: activity_labels.txt
 Description: Activities undertaken by the subjects during the data collection.
-Index	Label
-1	WALKING
-2	WALKING_UPSTAIRS
-3	WALKING_DOWNSTAIRS
-4	SITTING
-5	STANDING
-6	LAYING
+Index 	Label
+1       WALKING
+2	      WALKING_UPSTAIRS
+3      	WALKING_DOWNSTAIRS
+4     	SITTING
+5      	STANDING 
+6	      LAYING
+
 
 ###File: features.txt
 Description: observation dataset labels for recorded data from the device along with additional calculated statistical measures for some observations (mean and standard deviation abbreviated to std)
 
-Index	Label
-1	tBodyAcc-mean()-X
+Index	     Label
+1        	tBodyAcc-mean()-X
 2	tBodyAcc-mean()-Y
 3	tBodyAcc-mean()-Z
 4	tBodyAcc-std()-X
