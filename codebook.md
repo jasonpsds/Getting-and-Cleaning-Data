@@ -31,53 +31,59 @@ The run_analysis() function **requires the reshape2 and plyr packages installed*
 #####Dataset
 
 **DIR**   UCI HAR Dataset  (unzipped folder)
-activity_labels.txt   
-features.txt
-features_info.txt
-README.txt
+  activity_labels.txt    
+  features.txt 
+  features_info.txt 
+  README.txt 
+  
 **DIR** test
-subject_test.txt
-X_test.txt
-y_test.txt
+  subject_test.txt 
+  X_test.txt 
+  y_test.txt 
 
 **DIR**Inertial Signals
-body_acc_x_test.txt
-body_acc_y_ test.txt
-body_acc_z_ test.txt
-body_gyro_x_ test.txt
-body_gyro_y_ test.txt
-body_gyro_z_ test.txt
-total_acc_x_ test.txt
-total_acc_y_ test.txt
-total_acc_z_ test.txt
+
+  body_acc_x_test.txt 
+  body_acc_y_ test.txt 
+  body_acc_z_ test.txt 
+  body_gyro_x_ test.txt 
+  body_gyro_y_ test.txt 
+  body_gyro_z_ test.txt 
+  total_acc_x_ test.txt 
+  total_acc_y_ test.txt 
+  total_acc_z_ test.txt 
 
 **DIR** train
-subject_train.txt
-X_train.txt
-y_train.txt
+
+  subject_train.txt 
+  X_train.txt 
+  y_train.txt 
 
 **DIR** Inertial Signals
-body_acc_x_train.txt
-body_acc_y_train.txt
-body_acc_z_train.txt
-body_gyro_x_train.txt
-body_gyro_y_train.txt
-body_gyro_z_train.txt
-total_acc_x_train.txt
-total_acc_y_train.txt
-total_acc_z_train.txt
+
+  body_acc_x_train.txt 
+  body_acc_y_train.txt 
+  body_acc_z_train.txt 
+  body_gyro_x_train.txt 
+  body_gyro_y_train.txt 
+  body_gyro_z_train.txt 
+  total_acc_x_train.txt 
+  total_acc_y_train.txt 
+  total_acc_z_train.txt 
+  
 ##Files and Variables used in the analysis
 ----
 
 ###File: activity_labels.txt
 Description: Activities undertaken by the subjects during the data collection.
-Index 	Label
-1       WALKING
-2	      WALKING_UPSTAIRS
-3      	WALKING_DOWNSTAIRS
-4     	SITTING
-5      	STANDING 
-6	      LAYING
+
+  Index   	Label 
+  1       WALKING 
+  2	      WALKING_UPSTAIRS 
+  3      	WALKING_DOWNSTAIRS 
+  4     	SITTING 
+  5      	STANDING  
+  6	      LAYING 
 
 
 ###File: features.txt
