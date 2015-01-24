@@ -31,15 +31,15 @@ The run_analysis() function **requires the reshape2 and plyr packages installed*
 #####Dataset
 
 **DIR**   UCI HAR Dataset  (unzipped folder)
-  activity_labels.txt    
-  features.txt 
-  features_info.txt 
-  README.txt 
+ - activity_labels.txt    
+ - features.txt 
+ - features_info.txt 
+ - README.txt 
   
 **DIR** test
-  subject_test.txt 
-  X_test.txt 
-  y_test.txt 
+ - subject_test.txt 
+ -  X_test.txt 
+ - y_test.txt 
 
 **DIR**Inertial Signals
 
